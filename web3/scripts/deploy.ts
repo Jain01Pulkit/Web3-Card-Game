@@ -1,5 +1,8 @@
 import { ethers } from "hardhat";
 import console from "console";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const _metadataUri = `https://gateway.pinata.cloud/ipfs/https://gateway.pinata.cloud/ipfs/${process.env.IPFS_API_KEY}`;
 
